@@ -16,7 +16,7 @@ from pathlib import Path
 import os
 import time
 import io
-from ROCKY import CLONE_OWNERS, db, nexichat
+from ROCKY import CLONE_OWNERS, db
 from config import OWNER_ID, MONGO_URL, OWNER_USERNAME
 from pyrogram.errors import FloodWait, ChatAdminRequired
 from ROCKY.database.chats import get_served_chats, add_served_chat
